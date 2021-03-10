@@ -26,3 +26,11 @@ void SomeClass::setSomeIntlData(const int someIntDate )
 {
     m_someIntData=someIntDate;
 }
+void SomeClass::printsomeBoolData() const
+{
+std::cout<<m_someBoolData;
+}
+void SomeClass::printsomeIntData() const
+{
+std::cout<<m_someIntData;
+}

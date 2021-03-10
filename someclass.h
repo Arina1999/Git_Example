@@ -11,7 +11,10 @@ public:
     int someIntData() const;
 
     void setSomeBoolData(const bool someBoolData);
+    void setSomeIntlData(const int someIntData);
 
+    void printsomeBoolData() const;
+    void printsomeIntData() const;
 
 private:
     bool m_someBoolData;
