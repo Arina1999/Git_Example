@@ -1,4 +1,5 @@
 #include <iostream>
+#include "someclass.h"
 
 using namespace std;
 void helloworld()
@@ -8,5 +9,7 @@ void helloworld()
 int main()
 {
    helloworld();
+   SomeClass someObject(true, 10);
+   someObject.printsomeIntData();
     return 0;
 }
