@@ -17,3 +17,12 @@ int SomeClass::someIntData() const
    return m_someIntData;
 }
 
+void SomeClass::setSomeBoolData(const bool someBoolDate )
+ {
+      m_someBoolData=someBoolDate;
+  }
+
+void SomeClass::setSomeIntlData(const int someIntDate )
+{
+    m_someIntData=someIntDate;
+}

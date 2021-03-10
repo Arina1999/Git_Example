@@ -10,6 +10,7 @@ public:
     bool someBoolData() const;
     int someIntData() const;
 
+    void setSomeBoolData(const bool someBoolData);
 
 
 private:
